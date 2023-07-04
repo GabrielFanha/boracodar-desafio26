@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Serif 4", serif;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 56px;
+  background-color: #feece0;
+}
+
+header img {
+  width: 409px;
+  height: 293px;
+}
+
+header h1 {
+  color: #58190a;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+header p {
+  font-size: 38px;
+  font-weight: normal;
+  color: #58190a;
+  margin-bottom: 16px;
+}
+
+header span {
+  font-size: 38px;
+  font-weight: normal;
+  color: #9b6647;
+}
+
+header button {
+  width: 32px;
+  height: 32px;
+  border: solid 2px #9b6647;
+  border-radius: 50%;
+  background-color: #feece0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9b6647;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+main {
+  height: 50vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 120px;
+  background-color: #9b6647;
+  padding: 50px;
+}
+
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #feece0;
+}
+
+.preparo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #feece0;
+}
+
+.list {
+  padding-left: 30px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
